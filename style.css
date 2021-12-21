@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* NAV SECTION */
+.nav {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+ul,
+li {
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+}
+li {
+  padding: 0 18px;
+}
+
+/* HERO SECTION */
+.hero {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+}
+.text {
+  padding: 0px;
+  margin: 100px 0px;
+}
+.primary_text {
+  margin: 0px;
+  padding: 0px;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.secondary_text {
+  line-height: 1.5;
+  margin: 0px;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border-color: #3882f6;
+  outline: 0;
+  color: white;
+  background-color: #3882f6;
+}
+button:hover {
+  cursor: pointer;
+}
+img {
+  width: 45%;
+  margin: 100px 20px 100px 20px;
+}
+
+/* MIDDLE SECTIOn */
+.section {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /* width: 50%; */
+
+  text-align: center;
+}
+.info_header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container div div {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+.container div {
+  text-align: center;
+}
+
+/* Quote-Section */
+.quote-section {
+  background-color: #e5e7eb;
+}
+.quote-section div {
+  padding: 50px 1px;
+}
+blockquote {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+figcaption {
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* call-to-action section */
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter {
+  margin: 100px 1px;
+  background-color: #3882f6;
+  width: 60%;
+  color: #f9faf8;
+  height: 170px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn-2 {
+  border-color: white;
+  border-radius: 10px;
+}
+h2 {
+  margin: 0;
+}
+/* FOOTER */
+.footer {
+  background-color: #1f2937;
+  margin: 0;
+}
+.footer p {
+  color: #f9faf8;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  height: 60px;
+  padding-top: 50px;
+}
